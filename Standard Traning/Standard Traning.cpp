@@ -20,6 +20,20 @@ int main()
     std::cout << "값 입력 > ";
     std::cin >> temp;  // "test test test" 를 입력할 예정
     std::cout << "입력한 값 출력 : " << temp << std::endl;
+    
+    const double dNum = 1234.56789;
+
+    printf("%.0f\n", dNum);
+    printf("%.1f\n", dNum);
+    printf("%.2f\n", dNum);
+    printf("%.3f\n", dNum);
+    printf("%.4f\n", dNum);
+
+    printf("%9.0f\n", dNum);
+    printf("%9.1f\n", dNum);
+    printf("%9.2f\n", dNum);
+    printf("%9.3f\n", dNum);
+    printf("%9.4f\n", dNum);
 
     return 0;
 }
